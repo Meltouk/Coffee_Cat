@@ -1,0 +1,17 @@
+{
+"name": "Arañar y Ganar!",
+"short_name": "Arañar",
+"start_url": "index.html",
+"display": "standalone",
+"orientation": "landscape",
+"background_color": "#111111",
+"theme_color": "#111111",
+
+"icons": [
+    {
+    "src": "icono.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }
+  ]
+}
