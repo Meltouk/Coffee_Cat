@@ -5,8 +5,8 @@ class Inicio extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("fondoInicio", "../img/fondo.jpeg");
-    this.load.image("boton", "../img/boton.png");
+    this.load.image("fondoInicio", "fondo.jpeg");
+    this.load.image("boton", "boton.png");
   }
 
   create() {
@@ -36,13 +36,13 @@ class Juego extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("raspado", "../img/Rascar1.jpg");
-    this.load.image("brush", "../img/boton_60.png");
+    this.load.image("raspado", "Rascar1.jpg");
+    this.load.image("brush", "boton_60.png");
 
-    this.load.image("helado1", "../img/cake_frutal.jpg");
-    this.load.image("helado2", "../img/pan_cereza.jpg");
-    this.load.image("helado3", "../img/pan_relleno.jpg");
-    this.load.image("helado4", "../img/chocolate.jpg");
+    this.load.image("helado1", "cake_frutal.jpg");
+    this.load.image("helado2", "pan_cereza.jpg");
+    this.load.image("helado3", "pan_relleno.jpg");
+    this.load.image("helado4", "chocolate.jpg");
   }
 
   create() {
@@ -198,5 +198,6 @@ const config = {
   parent: "game",
   scene: [Inicio, Juego],
 };
+
 
 const game = new Phaser.Game(config);
